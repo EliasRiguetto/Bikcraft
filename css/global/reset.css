@@ -2,7 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: Arial, Helvetica, sans-serif;
+  color: #111;
 }
 
 ul {
@@ -12,10 +16,14 @@ ul {
 img {
   display: block;
   max-width: 100%;
+}
+
+img[src$=".jpg"] {
   border-radius: 4px;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
