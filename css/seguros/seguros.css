@@ -63,7 +63,7 @@
 }
 
 @media (max-width:800px) {
-  .seguros-item {
+  .seguros {
     grid-template-columns: 1fr;
   }
 }
